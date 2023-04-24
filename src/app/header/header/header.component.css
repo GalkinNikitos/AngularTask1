@@ -1,0 +1,21 @@
+.header {
+  background-color: coral;
+  height: 50px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  font-family: Times New Roman, sans-serif;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.header:hover{
+  color: #5265f6;
+  background-color: cornsilk;
+  box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.5),
+  0 0 10px 2px rgba(0, 0, 0, 0.15);
+}
+
+.header:not(:hover) {
+  transition: margin-right 2s;
+}
